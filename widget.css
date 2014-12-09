@@ -1,0 +1,20 @@
+#Looking_for_this {
+	border-bottom: 1px solid #B2B2B2;
+	border-left: 1px solid #B2B2B2;
+	border-right: 1px solid #B2B2B2;
+	clear: both;
+	float: right;
+	padding: 15px 0px;
+	width: 100%;
+
+}
+#Looking_for_this h3 {
+	font-family:Georgia,serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#F00;
+	padding-left: 15px;
+}
+#Looking_for_this img {
+	padding-left: 35px;
+}

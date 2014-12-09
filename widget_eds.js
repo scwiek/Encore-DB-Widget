@@ -1,5 +1,4 @@
-  <script type="text/javascript">
-$j(document).ready(function(){
+function lookingWidget (){
 
 var chiltonTerms = ["chlton", "chltons"];
 var countryTerms = ["AmErIcA", "bolivia"];
@@ -23,19 +22,18 @@ for (i = 0; i < searchArray.length; i++) {
 	}		
 };
 
-if((document.URL.indexOf("/iii/encore/plus/") != -1) && showWidget == 1){
+if(showWidget == 1){
 
-		resultdiv1 = '<div id="Placard_widget_hours">Looking for this?<br/><br/><a href="http://galesupport.com/chilton_branding/splashPage.php?loc=lom_accessmich"><img src="http://chilton.cengage.com/App_Themes/Neo/images/chiltonLibrary.png" /></a></div> ';	
+		resultdiv1 = '<div id="Looking_for_this"><h3>Looking for this?</h3><br/><a href="http://galesupport.com/chilton_branding/splashPage.php?loc=lom_accessmich"><img src="http://chilton.cengage.com/App_Themes/Neo/images/chiltonLibrary.png" /></a></div> ';	
 	
 		resultdiv1+='</div></div>';   
 		$j('#mainContentArea', window.parent.document).prepend(resultdiv1);
 		}		
- else if((document.URL.indexOf("/iii/encore/plus/") != -1) && showWidget == 2){
+ else if(showWidget == 2){
 		
-		resultdiv2 = '<div id="Placard_widget_hours">Looking for this?<br/><br/><p>CultureGrams</p></div> ';	
+		resultdiv2 = '<div id="Looking_for_this"><h3>Looking for this?</h3><br/><p>CultureGrams</p></div> ';	
 	
 		resultdiv2+='</div></div>';   
 		$j('#mainContentArea', window.parent.document).prepend(resultdiv2);  
 		}
-});
-</script>
+};
